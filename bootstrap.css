@@ -1,0 +1,146 @@
+.login{
+    padding-right: 15px;
+    float: right;
+    text
+}
+.account{
+    border: 1px solid #FFFFFF;
+    border-radius: 3px;
+    opacity: 1;
+    float: right;
+}
+.e{
+/* top: 100px; */
+width:  50px;
+ height: 30px;
+ float:left;
+
+left: 634px;
+ /* width: 99px;
+ height: 104px; */
+border-radius: 50%;
+cursor: pointer;
+/* UI Properties */
+text-align: left;
+font: normal normal 600 70px/106px Poppins;
+letter-spacing: 0px;
+color: #EB2929;
+opacity: 1;
+
+margin: 0;
+  position: absolute;
+  top: 25%;
+  
+}
+/* .h2{
+   
+top: 280px;
+left: 306px;
+width: 758px;
+height: 51px;
+
+float: right; 
+text-align: center;
+font: normal normal 600 36px/55px Poppins;
+letter-spacing: 0px;
+color: #FFFFFF;
+opacity: 1;
+} */
+.quicksearch{
+    top: 528px;
+left: 113px;
+width: 239px;
+height: 43px;
+/* UI Properties */
+text-align: left;
+font: normal normal bold 30px/46px Poppins;
+letter-spacing: 0px;
+color: #192F60;
+opacity: 1;
+}
+.item-8{
+    /* Layout Properties */
+top: 339px;
+left: 312px;
+width: 168px;
+height: 30px;
+/* UI Properties */
+background: #FFFFFF 0% 0% no-repeat padding-box;
+opacity: 1;
+}
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 100px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+ 
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  /* Float four columns side by side */
+  .column {
+    float: left;
+    width: 30%;
+    padding: 0 10px;
+  }
+  
+  /* Remove extra left and right margins, due to padding */
+  .row {margin: 0 -5px;}
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* Responsive columns */
+  @media screen and (max-width: 600px) {
+    .column {
+      width: 100%;
+      display: block;
+      margin-bottom: 20px;
+    }
+  }
+  
+  /* Style the counter cards */
+  .card {
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+  }
