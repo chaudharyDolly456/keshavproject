@@ -1,0 +1,13 @@
+.container {
+    border: 3px solid;
+    border-color: black;
+
+}
+
+.row {
+    border: 4px solid brown;
+}
+
+.col {
+    border: 3px solid chartreuse;
+}

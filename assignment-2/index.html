@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <title>assignment-2
+    </title>
+    <style>
+        .header {
+            border: 8px solid red;
+            background-color: red;
+        }
+
+        .left {}
+
+        .btn {
+            border: none;
+            font-weight: bold;
+            border-radius: 50%;
+            background-color: white;
+            color: red;
+            font-size: 15px;
+        }
+
+        .right {
+            position: absolute;
+            right: 25px;
+            top: 14px;
+            display: inline-block;
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .btn2 {
+            background-color: red;
+            color: white;
+            border-color: white;
+
+        }
+
+        .heading {
+            text-align: left;
+            font: normal normal bold 36px/55px Poppins;
+            letter-spacing: 0px;
+            color: #192F60;
+            opacity: 1;
+        }
+
+        .filters {
+            top: 195px;
+            left: 113px;
+            width: 250px;
+            height: 682px;
+            /* UI Properties */
+            font: normal normal 600 18px/27px Poppins;
+            letter-spacing: 0px;
+            color: #192F60;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            opacity: 1;
+        }
+
+        #fil {
+            float: left;
+            margin-left: 40px;
+        }
+
+        .big {
+            width: 794px;
+            height: 291px;
+            margin-right: 98px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            opacity: 1;
+        }
+
+        #big1 {
+            float: right;
+        }
+
+        .bake {
+
+            width: 794px;
+            height: 291px;
+            margin-right: 98px;
+            margin-top: 10px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+            opacity: 1;
+        }
+
+        #bake1 {
+            padding-bottom: 87px;
+
+            float: inline-end;
+        }
+
+        h5 {
+            margin-left: 20px;
+        }
+
+        h6 {
+            width: 106px;
+            height: 20px;
+            margin-left: 20px;
+            margin-top: -22px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal normal 14px/21px Poppins;
+            letter-spacing: 0px;
+            color: #192F60;
+        }
+
+        #select-location {
+            margin-left: 22px;
+            width: 208px;
+            height: 35px;
+            /* UI Properties */
+            border: 1px solid #8C96AB;
+            border-radius: 3px;
+        }
+
+        img {
+            width: 120px;
+            height: 120px;
+            border-radius: 15px;
+            float: left;
+        }
+        .thebig {
+            float: right;
+        }
+
+
+        h5 {
+            top: 282px;
+            left: 619px;
+            width: 40px;
+            height: 23px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal medium 16px/30px Poppins;
+            letter-spacing: 0px;
+            color: #192F60;
+        }
+
+
+        .imgg1 {
+            width: 190px;
+            height: 140px;
+        }
+
+        .cuisines {
+            width: 140px;
+            height: 120px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal normal 16px/30px Poppins;
+            letter-spacing: 0px;
+            color: #636F88;
+        }
+
+        p {
+            width: 60px;
+            height: 20px;
+            margin-left: 25px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal normal 14px/21px Poppins;
+            letter-spacing: 0px;
+            color: #192F60;
+        }
+
+        span {
+            float: inline-start;
+              margin-left: 61px;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <button class="btn">e!</button>
+        </div>
+        <div class="right">
+            <a href="" class="btn2">Login</a>
+            <button class="btn2"> Create an account</button>
+        </div>
+    </header>
+
+    <h2 class="heading"> &nbsp; &nbsp; &nbsp;Breakfast Places in Mumbai</h2>
+
+
+    <div id="fil" class="filters" style="padding: 9px;">
+        <h5 style="color: #192F60;">Filters</h5>
+        <h6 style="margin-top: 2px;color: #192F60;">Select Location</h6>
+        <select name="location" id="select-location" aria-placeholder="Select Location">
+            <option value="" selected>Select Location</option>
+            <option value="bangalore">Bangalore</option>
+            <option value="jaipur">Jaipur</option>
+            <option value="Mumbai">Mumbai</option>
+            <option value="Chennai">Chennai</option>
+            <option value="Lucknow">Lucknow</option>
+        </select>
+        <p style="margin-top: 5px;color: #192F60;">Cuisine</p>
+        <span style="margin-left: 20px;">
+        <input type="checkbox" id="location1" name="location" value="">
+        <label for="location"> North Indian</label><br>
+        <input type="checkbox" id="location2" name="location" value="">
+        <label for="location"> South Indian</label><br>
+        <input type="checkbox" id="location3" name="location" value="">
+        <label for="location"> Chinese</label><br>
+        <input type="checkbox"id="location4"name="location" value="">
+        <label for="location"> Fast Food</label><br>
+        <input type="checkbox"id="location5"name="location" value="">
+        <label for="location"> Street Food</label><br>
+        <br>
+        <h6>
+            Cost For Two
+        </h6>
+            <br>
+                    <input type="radio" id="cost1" name="radio" >
+                    <label for="cost"> Less than 500</label><br>
+                    <input type="radio" id="cost1" name="radio" >
+                    <label for="cost"> 500 to 1000</label><br>
+                    <input type="radio" id="cost1" name="radio" >
+                    <label for="cost"> 1000 to 1500</label><br> 
+                     <input type="radio" id="cost1" name="radio" >
+                    <label for="cost"> 1500 to 2000</label><br>
+                    <input type="radio" id="cost1" name="radio" >
+                    <label for="cost">2000+</label><br>
+                    <br>
+                    <h6>
+                        Sort
+                    </h6>
+                    <input type="radio" id="sort1" name="radio" >
+                    <label for="sort"> Price low to high</label><br>
+                    <input type="radio" id="sort2" name="radio" >
+                    <label for="sort"> price high to low</label><br>
+                </span>
+    </div>
+    <div class="big" id="big1">
+            <img src="shutterstock_1154073754.png" alt="image">
+            <span style="width: 612px;">
+             <h3> &nbsp;The Big Chill Cakery</h3>
+             <h5>FORT</h5>
+          
+             &nbsp;&nbsp;&nbsp; Shop 1, Plot D, Samruddhi Complex,Chinchoi.. 
+          <br>
+          <hr>
+            </span> 
+            <footer style="padding: 8px;letter-spacing: 0px;
+            color: #636F88;">
+             CUISINES: <b style="color: #192F60;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Bakery</b>
+             <br>
+             <br>
+             COST FOR TWO: <b style="color: #192F60;">&nbsp; &nbsp;  ₹700</b>
+            </footer>
+
+        </div>
+    
+    <div class="bake" id="bake1">
+        <img src="shutterstock_1154073754.png" alt="image">
+       <span style="width: 612px; ">
+        <h3> The Bake Shop</h3>
+        <h5>FORT</h5>
+        &nbsp;&nbsp;&nbsp; Shop 1, Plot D, Samruddhi Complex,Chinchoi.. 
+        <br>
+        <hr>
+       </span>
+       <footer style="padding: 8px;
+        letter-spacing: 0px;
+        color: #636F88;">
+            CUISINES: <b style="color: #192F60;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  Bakery</b>
+        <br>
+        <br>
+        COST FOR TWO:<b style="color: #192F60;">&nbsp; &nbsp;  ₹700</b>
+       </footer>
+       
+    </div>
+    <nav aria-label="Page navigation example">
+        <ul class="pagination">
+          <li class="page-item">
+            <a class="page-item" href="#" aria-label="Previous">
+              <span aria-hidden="true">&lt;</span>
+            </a>
+          </li>
+          <li class="page-item"><a class="page-link" href="#">1</a></li>
+          <li class="page-item"><a class="page-link" href="#">2</a></li>
+          <li class="page-item"><a class="page-link" href="#">3</a></li>
+          <li class="page-item"><a class="page-link" href="#">4</a></li>
+          <li class="page-item"><a class="page-link" href="#">5</a></li>
+          <li class="page-item">
+            <a class="page-item" href="#" aria-label="Next">
+              <span aria-hidden="true">&gt;</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+</body>
+
+</html>

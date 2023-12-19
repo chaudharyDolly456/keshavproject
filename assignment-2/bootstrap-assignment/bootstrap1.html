@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Document</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        .container {
+            border: 3px solid;
+            border-color: black;
+        }
+
+        /* .row {
+            height: 350px;
+            border: 4px solid white;
+        } */
+
+        .col {
+            width: 360px;
+            height: 160px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            box-shadow: 0px 3px 6px #00000029;
+        }
+
+        .login {
+            float: right;
+            top: 29px;
+            left: 1015px;
+            width: 53px;
+            height: 30px;
+            /* UI Properties */
+            text-align: left;
+            font: normal normal medium 16px/25px Poppins;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            text-decoration: none;
+        }
+
+        .button1, a.active {
+            border: 2px white solid;
+            text-decoration: none;
+            text-align: left;
+            font: normal normal medium 16px/25px Poppins;
+            letter-spacing: 0px;
+            color: #FFFFFF;
+            float: right;
+        }
+
+        .card-img-top {
+            padding: 12px;
+            width: 160px;
+            height: 160px;
+        }
+
+        .card-text {
+            /* UI Properties */
+            text-align: left;
+            letter-spacing: 0px;
+            color: #8C96AB;
+        }
+
+        .button5 {
+            display: flex;
+            text-align: center;
+            margin: 0;
+            position: absolute;
+            border-radius: 50%;
+            border-color: #e7e7e7;
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+            width: 104px;
+            height: 104px;
+            font: normal normal 600 70px/106px Poppins;
+            letter-spacing: 0px;
+            color: #EB2929;
+        }
+
+        #location{
+            appearance: none;
+            width: 190px;
+            height: 35px;
+            /* UI Properties */
+            background: #FFFFFF 0% 0% no-repeat padding-box;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row image" style="height: 350px;">
+            <div style="height: 30px;">
+             <a href="#" target="_blank" class="button1"> Create an account</a>
+                <a href="#"  target="blank" class="login">Login</a>
+            </div>
+            <img style="height: 350px; width: 100%; 
+        position: absolute;
+        left: 0px;
+        top: 0px;
+        z-index: -1 !important;"
+                src="C:/Users/admin/Desktop/newproject/edureka/webpage/style/Assignment-1/shutterstock_348320018.png"
+                alt="back-img">
+
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-2">
+                    <button class="button button5">e!</button>
+                </div>
+                <div class="col-md-5"></div>
+
+            </div>
+
+
+            <div class="row" style="margin-top: 111px;">
+                <div class="col-sm-3"></div>
+                <div class="col-sm-9">
+                    <h5 style="text-align: left;
+                        font: normal normal 600 36px/55px Poppins;letter-spacing: 0px;color:#FFFFFF;">
+                        Find the best restaurants, cafes, and bars
+                    </h5>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-sm-4"></div>
+                <div class="col-sm-2">
+                    <select name="locations" id="location">
+                        <option>Bengaluru</option>
+                        <option>Sarjapur road,Bengaluru</option>
+                        <option>HSR Layout,Bengaluru</option>
+                        <option>kormangala,Bengaluru</option>
+                        <option>Jay Nagar, Bengaluru</option>
+                    </select>
+                </div>
+                <div class="col-sm-3"> 
+                    <button style="border-color: #FFFFFF;"  type="submit"> <input style="border-color: #FFFFFF;" type="text" placeholder="Search for restaurants" name="search2">
+                    <img style="width:28px; float:inline-start;" src="OIP.jpg "></i></button>
+                    <!-- <button type="submit"></button> -->
+                </div>
+                <div class="col-sm-2"></div>
+            </div>
+        </div>
+
+
+        <div class="row" style="height: 490px;">
+            <div class="row">   <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-11">
+                    <h2 style="height: 0px; font: normal normal bold 30px/46px Poppins;">
+                        Quick search
+                    </h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-1"></div>
+                <div class="col-sm-11">
+                    <h2 style="height: 0px; font: normal normal bold 30px/46px Poppins;">
+                        <p style="width: 30%; height: 31px;color: rgb(98, 112, 112);font-size: medium;">
+                            Discover restaurants by type of meal
+                        </p>
+                    </h2>
+                </div>
+            </div></div>
+         
+            <div class="row">
+                <div class="col col-md-4">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="shutterstock_1154073754.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class=" col-sm-6" style="padding: 12px;">
+                            <h5>Breakfast</h5>
+                            <p class="card-text">Start your day with exclusive breakfast options</p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col col-md-4">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="shutterstock_1130181932.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 class="card-title">Lunch </h5>
+                            <p class="card-text">Start your day with exclusive breakfast options</p>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="shutterstock_351721442.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 class="card-title">Snacks </h5>
+                            <p class="card-text">Start your day with exclusive breakfast options</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+                <div class="col col-md-4">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="shutterstock_476864884.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 class="card-title">Dinner</h5>
+                            <p class="card-text">Start your day with exclusive breakfast options</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="shutterstock_305270834.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 class="card-title"> Drinks</h5>
+                            <p class="card-text">Start your day with exclusive breakfast options</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-md-4">
+                    <div class="row">
+                        <div class="col-sm-6">
+                            <img src="shutterstock_1304064250.png" class="card-img-top" alt="...">
+                        </div>
+                        <div class="col-sm-6">
+                            <h5 class="card-title"> Nightlife</h5>
+                            <p class="card-text">Start your day with exclusive breakfast options</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+
+        </div>
+    </div>
+</body>
+
+</html>
